@@ -1,0 +1,38 @@
+/*重置默认样式*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Microsoft yahei';
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+header,footer,article,section,nav,menu,hgroup,aside,figure{  
+   display:block;  
+}  
+
+em,i{
+	font-style: normal;
+}
+img{border: none;}
+
+li{list-style: none;}
+
+input,textarea{outline: none;border: none;}
+
+textarea{resize: none;}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{zoom:1;}

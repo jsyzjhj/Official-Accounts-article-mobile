@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="微信文章,微信公众号,美文阅读,公众号搜索">
+<meta name="description" content="第一微文网设有新闻、科技、搞笑、时尚、财经、娱乐等频道，每天定时更新，为您推送各种优秀文章以及公众号。在这里你可以随意搜索自己喜欢的内容。">
+<title>搜索页面</title>
+<link href="style/reset.css" rel="stylesheet" type="text/css">
+<link href="style/main.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body> 
+<div class="space">
+    <!-- 搜索 -->
+    <div class="search">
+        <div class="fl">
+            <a href="javascript:window.history.back(-1);" target="_self"><img src="images/back1.png" alt="返回" /></a>
+        </div>
+        <div class="fl">
+            <input type="text" name="search" placeholder="输入搜索内容" /><button id="type" type="button">文章</button><button id="search_bt" type="button">搜索</button>
+            <ul>
+                <li>文章</li>
+                <li>公众号</li>
+            </ul>
+        </div>
+    </div>
+    
+	<!-- 提示语 -->
+    <div id="container">
+    	<ul class="search_type clearfix">
+        	<li><img src="images/oa.png" alt="公众号" /><p>公众号</p></li>
+            <li><img src="images/article.png" alt="文章" /><p>文章</p></li>
+        </ul>
+        <div class="tip">
+        	<p>搜索感兴趣的公众号或文章</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/common.js"></script>
+</body>
+</html>
